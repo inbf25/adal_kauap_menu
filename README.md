@@ -228,4 +228,94 @@
   </footer>
 </body>
 </html>
-        
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+header {
+  background-color: #ff6f00;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff6f00;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.menu-item .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item h3 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #ff6f00;
+}
+
+.menu-item .price {
+  font-size: 1.2em;
+  color: #ff6f00;
+  margin-top: 10px;
+}
+
+.menu-item .desc {
+  color: #fff;
+}
+
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  font-size: 1em;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
